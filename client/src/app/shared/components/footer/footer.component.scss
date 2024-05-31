@@ -1,48 +1,46 @@
 .footer-container {
-    display: flex;
+  display: flex;
+  color: var(--accent-color);
 }
 
 .copyright-field,
 .phone-field,
 .email-field {
-    display: flex;
-    gap: 5px;
-    text-align: center;
-
+  display: flex;
+  gap: 5px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 600;
 }
 
 .detail-field {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-.terms-field {
-    display: flex;
-    justify-content: end;
-    align-items: center;
-    gap: 10px;
+.terms-field{
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-
-a,
-.detail-field,
-.copyright-field {
-    font-family: 'Source Sans Pro', sans-serif;
+.info-field{
+  flex-direction: column;
 }
 
-a,
-.detail-field {
-    font-weight: 300;
+a {
+  text-decoration: none;
+  color: var(--accent-color);
 }
 
-.copyright-field{
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    font-weight: 600;
-
+a:hover {
+  text-decoration: underline;
 }
 
-.terms-field a:visited {
-    color:gray;
+.bi {
+  color: var(--accent-color);
 }
