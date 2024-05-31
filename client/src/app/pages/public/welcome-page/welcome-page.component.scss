@@ -3,14 +3,10 @@
     flex-direction: column;
     padding: 0px 20px 0px 20px;
     height: 100vh;
-    align-self: auto;
 }
 
 .main-content{
     justify-content: center;
     align-items: center;
-}
-.footer{
-    display: flex;
-    align-self: flex-end;
+    height: 100%;
 }

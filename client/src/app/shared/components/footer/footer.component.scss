@@ -7,14 +7,12 @@
 .email-field {
     display: flex;
     gap: 5px;
-    align-content: center;
-    align-items: center;
+    text-align: center;
+
 }
 
 .detail-field {
     display: flex;
-    width: 90vw;
-    padding: 10px;
     justify-content: space-between;
 }
 
@@ -25,10 +23,6 @@
     gap: 10px;
 }
 
-.info-field {
-    justify-content: end;
-    text-align: center;
-}
 
 a,
 .detail-field,
@@ -41,8 +35,12 @@ a,
     font-weight: 300;
 }
 
-.copyright-field {
+.copyright-field{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
     font-weight: 600;
+
 }
 
 .terms-field a:visited {
