@@ -1,28 +1,50 @@
-.footer-container{
+.footer-container {
     display: flex;
 }
 
-.copyright-field, .phone-field, .email-field{
+.copyright-field,
+.phone-field,
+.email-field {
     display: flex;
     gap: 5px;
     align-content: center;
     align-items: center;
 }
 
-.detail-field{
+.detail-field {
     display: flex;
     width: 90vw;
     padding: 10px;
     justify-content: space-between;
 }
 
-.terms-field{
+.terms-field {
     display: flex;
     justify-content: end;
     align-items: center;
     gap: 10px;
 }
 
-.info-field{
-   text-align: center;
+.info-field {
+    justify-content: end;
+    text-align: center;
+}
+
+a,
+.detail-field,
+.copyright-field {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+a,
+.detail-field {
+    font-weight: 300;
+}
+
+.copyright-field {
+    font-weight: 600;
+}
+
+.terms-field a:visited {
+    color:gray;
 }

@@ -1,5 +1,5 @@
 .navbar-container {
-    display: flex;    
+    display: flex;
 }
 
 .logo-field {
@@ -13,14 +13,18 @@
     padding: 10px;
     width: 85vw;
     display: flex;
-    justify-content: space-between;       
+    justify-content: end;
 }
-.auth-field{
+
+.auth-field {
     display: flex;
     justify-content: end;
     gap: 10px;
 }
 
-a{
+a {
     text-decoration: none;
+    color: rgb(77, 77, 77);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
 }
