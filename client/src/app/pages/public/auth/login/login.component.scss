@@ -16,7 +16,20 @@
     justify-content: center;
 }
 
+.logo-field h2, .logo-field h3 {
+    margin: 0 0 1rem 0;
+  }
+  
+  .logo-field h2 {
+    color: var(--text-color);
+  }
+  
+  .logo-field h3, .logo-field h4 {
+    color: var(--accent-color);
+  }
+
 .login {
+    view-transition-name: 'transitionForm';
     display: flex;
     justify-content: center;
     align-items: center;
