@@ -1,0 +1,19 @@
+.dashboard-container{
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar-field{
+    display: flex;
+    height: 5%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.folders-field{
+    height: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
