@@ -6,14 +6,21 @@
 
 .navbar-field{
     display: flex;
-    height: 5%;
+    height: 10%;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
+    border: var(--secondary-color) solid;
+    border-radius: 20px;
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2); 
 }
 
 .folders-field{
-    height: 95%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: var(--secondary-color) solid;
+    border-radius: 20px;
+    box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2); 
 }
