@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { SideMenuComponent } from '../../../shared/components/side-menu/side-menu.component';
 import { NavbarComponent } from '../../../shared/components/navbar/navbar.component';
 import { UserOptionsComponent } from '../user-options/user-options.component';
-import { FoldersListComponent } from '../folders-list/folders-list.component';
+import { FoldersListComponent } from '../folder-options/folders-list/folders-list.component';
 
 @Component({
   selector: 'app-dashboard',

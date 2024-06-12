@@ -1,0 +1,11 @@
+<div class="folder-list-container row">
+    @for (folder of folderService.getFolders(); track folder.id) {
+        <div class="card col-3">
+            <div class="card-body">
+                <h5 class="card-title">{{folder.name}}</h5>
+                <p class="card-text">Curso {{folder.name}} Completo.</p>
+            </div>
+            <img src="https://brandemia.org/contenido/subidas/2017/10/logo_youtube-1-960x640.jpg" class="card-img-bottom">
+        </div>
+        }
+</div>

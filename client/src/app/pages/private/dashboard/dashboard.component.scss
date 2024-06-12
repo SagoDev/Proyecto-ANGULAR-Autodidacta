@@ -15,11 +15,9 @@
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2); 
 }
 
-.folders-field{
+.folders-field{   
+    padding: 10px;
     height: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     border: var(--secondary-color) solid;
     border-radius: 20px;
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2); 
