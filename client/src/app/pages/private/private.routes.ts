@@ -8,6 +8,7 @@ export const PRIVATE_ROUTES: Routes = [
             {
                 path: 'folders',
                 loadComponent: () => import('./dashboard/components/folders-list/folders-list.component'),
+                title:'Folders'
             },
             {
                 path: 'folder/:id',
