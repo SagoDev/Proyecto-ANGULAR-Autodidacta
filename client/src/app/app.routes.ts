@@ -8,5 +8,5 @@ export const routes: Routes = [
     {
         path:'private',
         loadChildren: () => import('./pages/private/private.routes').then(m => m.PRIVATE_ROUTES)
-    }
+    }   
 ];

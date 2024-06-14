@@ -7,6 +7,6 @@ import { Component } from '@angular/core';
   templateUrl: './folder-detail.component.html',
   styleUrl: './folder-detail.component.scss'
 })
-export class FolderDetailComponent {
+export default class FolderDetailComponent {
 
 }

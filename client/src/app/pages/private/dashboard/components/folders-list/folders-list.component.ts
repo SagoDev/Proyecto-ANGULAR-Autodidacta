@@ -1,5 +1,6 @@
 import { Component, inject, } from '@angular/core';
-import { FoldersService } from '../../../../core/services/folders.service';
+import { FoldersService } from '../../../../../core/services/folders.service';
+
 
 @Component({
   selector: 'app-folders-list',
@@ -8,6 +9,6 @@ import { FoldersService } from '../../../../core/services/folders.service';
   templateUrl: './folders-list.component.html',
   styleUrl: './folders-list.component.scss'
 })
-export class FoldersListComponent {
+export default class FoldersListComponent {
   public folderService = inject(FoldersService);
-}
+};
