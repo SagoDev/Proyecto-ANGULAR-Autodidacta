@@ -1,10 +1,10 @@
-.login-container {
+.register-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    background: var(--primary-color);
 }
 
 .form-field {
@@ -14,7 +14,7 @@
 }
 
 .logo-field {
-    text-align: end;
+    text-align: center;
 }
 
 .logo-field h2, .logo-field h3 {
@@ -29,7 +29,7 @@
     color: var(--accent-color);
   }
 
-.login {
+.register {
     view-transition-name: transitionForm;
     display: flex;
     justify-content: center;
@@ -39,6 +39,8 @@
     gap: 10px;
     flex-direction: column;
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background: var(--primary-color);
 }
 
 .input-field {
@@ -69,4 +71,10 @@ button {
 
 .btn-field button:hover {
     background-color: var(--secondary-color);
+}
+
+.col-effect{
+    view-transition-name: transitionCol;
+    background: var(--secondary-color);
+    height: 100%;
 }

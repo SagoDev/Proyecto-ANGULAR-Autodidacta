@@ -2,8 +2,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     width: 100%;
+    background: var(--primary-color);
 }
 
 .logo-field {
@@ -38,6 +39,8 @@
     gap: 10px;
     flex-direction: column;
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    background: var(--primary-color);
 }
 
 .input-field {
@@ -68,4 +71,10 @@ button {
 
 .btn-field button:hover {
     background-color: var(--secondary-color);
+}
+
+.col-effect{
+    view-transition-name: transitionCol;
+    background: var(--secondary-color);
+    height: 100%;
 }
