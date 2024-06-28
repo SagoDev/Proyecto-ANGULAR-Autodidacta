@@ -1,10 +1,10 @@
 <div class="welcome-container">
-    <div class="main-content row">
+    <div class="main-content">
         <div class="left-box col-6">
             <div class="text-field">
                 <h1>Autodidacta</h1>
                 <h3>Aprende todo lo que quieras. Facil.</h3>
-                <h4>Explota tus capacidades de organización y planificación.</h4>
+                <h4>Organiza tu información en un solo lugar.</h4>
             </div>
             <div class="btn-field">
                 <button [routerLink]="registerPath">Registrarse</button>
@@ -12,7 +12,10 @@
             </div>
         </div>
         <div class="right-box col-6">
-            visualizador
+            @for (icon of iconService.getIcons(19); track $index){
+            <i class="{{icon}}"></i>
+            }
+            <i class="bi bi-youtube"></i>
         </div>
     </div>
     <app-footer />

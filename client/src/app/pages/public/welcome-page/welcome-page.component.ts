@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FooterComponent } from '../../../shared/components/footer/footer.component';
 import { RouterModule } from '@angular/router';
+import { IconsService } from '../../../core/services/icons.service';
 
 @Component({
   selector: 'app-welcome-page',
@@ -10,7 +11,7 @@ import { RouterModule } from '@angular/router';
   styleUrl: './welcome-page.component.scss'
 })
 export class WelcomePageComponent {
-
   public registerPath = '/auth/register';
   public loginPath = '/auth/login';
+  public iconService = inject(IconsService);
 }
