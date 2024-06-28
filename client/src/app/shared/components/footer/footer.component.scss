@@ -1,25 +1,15 @@
 .footer-container {
-  display: flex;
   color: var(--accent-color);
+  font-family: 'Source Sans Pro', sans-serif;
+  padding: 10px;
+  justify-content: space-between;
 }
 
-.copyright-field,
 .phone-field,
 .email-field {
-  display: flex;
   gap: 5px;
-  text-align: center;
-  justify-content: center;
   align-items: center;
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
-}
-
-.detail-field {
-  display: flex;
-  justify-content: space-between;
-  flex: 1;
-  font-family: 'Source Sans Pro', sans-serif;
 }
 
 .terms-field{

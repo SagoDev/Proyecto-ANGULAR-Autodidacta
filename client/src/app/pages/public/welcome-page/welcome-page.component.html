@@ -1,6 +1,11 @@
 <div class="welcome-container">
-    <div class="main-content">
-        <div class="left-box col-6">
+    <div class="main-content d-flex flex-sm-column flex-xl-row">
+        <div class="box2 col d-none d-md-flex d-xl-none fs-2">
+            @for (icon of iconService.getIcons(5); track $index){
+                <i class="{{icon}}"></i>
+                }
+        </div>
+        <div class="left-box d-flex col col-md-12 col-lg-6">
             <div class="text-field">
                 <h1>Autodidacta</h1>
                 <h3>Aprende todo lo que quieras. Facil.</h3>
@@ -11,12 +16,16 @@
                 <button [routerLink]="loginPath">Iniciar Sesión</button>
             </div>
         </div>
-        <div class="right-box col-6">
-            @for (icon of iconService.getIcons(19); track $index){
+        <div class="right-box d-none d-xl-flex fs-1 col-md-12 col-lg-6">
+            @for (icon of iconService.getIcons(26); track $index){
             <i class="{{icon}}"></i>
             }
-            <i class="bi bi-youtube"></i>
+        </div>
+        <div class="box2 col d-none d-md-flex d-xl-none fs-2">
+            @for (icon of iconService.getIcons(5); track $index){
+                <i class="{{icon}}"></i>
+                }
         </div>
     </div>
-    <app-footer />
+    <app-footer/>
 </div>
