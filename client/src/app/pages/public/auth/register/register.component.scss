@@ -1,7 +1,6 @@
 .register-container {
-    display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 100%;
     width: 100%;
     background: var(--primary-color);
@@ -16,16 +15,12 @@
 .logo-field {
     text-align: center;
 }
-
-.logo-field h2, .logo-field h3 {
-    margin: 0 0 1rem 0;
-  }
-  
   .logo-field h2 {
+    margin: 0 0 1rem 0;
     color: var(--text-color);
   }
   
-  .logo-field h3, .logo-field h4 {
+  .logo-field h4 {
     color: var(--accent-color);
   }
 
@@ -35,8 +30,7 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
-    width: 80%;
-    gap: 10px;
+    gap: 5px;
     flex-direction: column;
     box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
@@ -78,3 +72,19 @@ button {
     background: var(--secondary-color);
     height: 100%;
 }
+
+@media (max-width: 992px) {
+    .col-effect {
+        height: 10%;
+        width: 100%;
+    }
+    .logo-field{
+        height: 20%;
+    }
+    .form-field{
+        height: 70%;
+    }
+    .register-container{
+        justify-content: space-evenly;
+    }
+  }
