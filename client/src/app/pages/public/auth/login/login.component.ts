@@ -12,7 +12,7 @@ import { AuthService } from '../../../../core/services/auth.service';
 export class LoginComponent {
 
   public registerPath = '/auth/register';
-  
+
   public authService = inject(AuthService);
   public router = inject(Router);
 
@@ -24,9 +24,10 @@ export class LoginComponent {
     const password = this.inputPassword()?.nativeElement.value || '';
 
     const validUser = this.authService.getUser(username, password);
+    
     if (validUser) {
       this.router.navigate(['/private/dashboard']);
-    }else{
+    } else {
       alert('Datos no válidos')
     }
   }
