@@ -5,10 +5,14 @@ import { LoginComponent } from './login/login.component';
 export const AUTH_ROUTES: Routes = [
     {
         path: 'register', component: RegisterComponent,
-        title:'Register'
+        title: 'Register'
     },
     {
-        path: 'login', component: LoginComponent,        
-        title:'Login'
+        path: 'login', component: LoginComponent,
+        title: 'Login'
+    },
+    {
+        path: 'private',
+        loadChildren: () => import('../../../app.routes').then(m => m.routes)
     }
 ];

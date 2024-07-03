@@ -9,13 +9,13 @@
     <div class="form-field col-lg-5">
         <div class="login">
             <div class="input-field">
-                <input type="text" class="form-control" placeholder="Usuario">
+                <input #usernameInput type="text" class="form-control" placeholder="Usuario">
             </div>
             <div class="input-field">
-                <input type="password" class="form-control" placeholder="Contraseña" name="" id="">
+                <input #passInput type="password" class="form-control" placeholder="Contraseña">
             </div>
             <div class="btn-field">
-                <button>Iniciar sesión</button>
+                <button (click)="login()" >Iniciar sesión</button>
             </div>
             <div class="forgotPass-field">
                 <a href="">¿Olvido su contraseña?</a>
@@ -25,5 +25,5 @@
                 <button [routerLink]="registerPath">Crear una cuenta</button>
             </div>
         </div>
-    </div>    
+    </div>
 </div>
