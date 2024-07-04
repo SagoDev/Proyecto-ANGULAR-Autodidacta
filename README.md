@@ -1,5 +1,5 @@
 # Proyecto Autodidacta
-![Imagen del proyecto]()
+![Imagen del proyecto](https://github.com/SagoDev/Proyecto-ANGULAR-Autodidacta/blob/main/screenshots/Readme%20header.png?raw=true)
 
 ## Descripción 📑
 
@@ -20,7 +20,6 @@ Este proyecto tiene como finalidad crear un sitio web que simula ser un organiza
 [![TS](https://img.shields.io/badge/TypeScript-359EF1?style=for-the-badge)](https://es.wikipedia.org/wiki/TypeScript)
 
 ## Vista previa del proyecto
-Si quieres hechas un vistazo al proyecto, te recomiendo:
 
 ![Captura del proyecto](https://github.com/SagoDev/Proyecto-ANGULAR-Autodidacta/blob/main/screenshots/welcome%20page.png?raw=true)
 ![Captura del proyecto](https://github.com/SagoDev/Proyecto-ANGULAR-Autodidacta/blob/main/screenshots/login%20&%20register%20phone.png?raw=true)
