@@ -18,6 +18,7 @@ Este proyecto tiene como finalidad crear un sitio web que simula ser un organiza
 [![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://es.wikipedia.org/wiki/HTML5)
 [![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://es.wikipedia.org/wiki/CSS)
 [![TS](https://img.shields.io/badge/TypeScript-359EF1?style=for-the-badge)](https://es.wikipedia.org/wiki/TypeScript)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-00599C?style=for-the-badge)](https://es.wikipedia.org/wiki/Bootstrap)
 
 ## Vista previa del proyecto
 
