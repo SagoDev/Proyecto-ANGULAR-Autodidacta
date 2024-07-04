@@ -7,11 +7,11 @@ Este proyecto tiene como finalidad crear un sitio web que simula ser un organiza
 
 ## ¿Qué he aprendido en este proyecto? 🙇🏻 
 
-Nuevo control flow presente en Angular 17.
-Input Signals.
-Estructura basada en carpetas.
-Configuración de rutas.
-Creación e implementación de interfaces y servicios.
+* Nuevo control flow presente en Angular 17.
+* Input Signals.
+* Estructura basada en carpetas.
+* Configuración de rutas.
+* Creación e implementación de interfaces y servicios.
 
 ## Tecnologías 🛠
 <!-- Iconos sacados de: https://github.com/hendrasob/badges/blob/master/README.md y https://github.com/alexandresanlim/Badges4-README.md-Profile -->
