@@ -1,4 +1,4 @@
-# Proyecto Autoodidacta
+# Proyecto Autodidacta
 ![Imagen del proyecto]()
 
 ## Descripción 📑
