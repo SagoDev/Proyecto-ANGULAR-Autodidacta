@@ -22,8 +22,8 @@ Este proyecto tiene como finalidad crear un sitio web que simula ser un organiza
 ## Vista previa del proyecto
 Si quieres hechas un vistazo al proyecto, te recomiendo:
 
-![Captura del proyecto]()
-![Captura del proyecto]()
+![Captura del proyecto](https://github.com/SagoDev/Proyecto-ANGULAR-Autodidacta/blob/main/screenshots/welcome%20page.png?raw=true)
+![Captura del proyecto](https://github.com/SagoDev/Proyecto-ANGULAR-Autodidacta/blob/main/screenshots/login%20&%20register%20phone.png?raw=true)
 
 ## Autor ✒️
 **Santiago Lanz**
